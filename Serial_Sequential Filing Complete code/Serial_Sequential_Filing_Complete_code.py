@@ -99,15 +99,6 @@ def Command3_Click():
    print("_" * 100)
       
 
-  
-
- 
-     
-
-
-
-
-
 #complete
 # DELETE a record from the file
 def Command4_Click():
@@ -222,7 +213,6 @@ if Answer == "Y":
 
 choice = 0
 while choice != 8:
-       os.system('cls')
 #Serial Sequential Filing Complete code
        print("Enter 1 to APPEND record to the file")
        print("Enter 2 to READ record from the file")
