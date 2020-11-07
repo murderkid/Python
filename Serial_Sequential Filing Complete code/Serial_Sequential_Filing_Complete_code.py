@@ -2,7 +2,6 @@ choice = 0
 import re
 import os
 
-#complete
 #Appending file
 def Command1_Click():
 #-------------------------------------------------------------------------
@@ -28,8 +27,6 @@ def Command1_Click():
     f.write(":" + sName + " ")
     print("_" * 100)
 
-
-#complete
 # read fron a file
 def Command2_Click():
     os.system('cls')
@@ -39,10 +36,6 @@ def Command2_Click():
     print(f.read())
     f.close()
     print("_" * 100)
-
-
-
-
 
 # ADD a record in sequence
 def Command3_Click():
@@ -98,8 +91,6 @@ def Command3_Click():
 
    print("_" * 100)
       
-
-#complete
 # DELETE a record from the file
 def Command4_Click():
 
@@ -138,8 +129,6 @@ def Command4_Click():
     print(f.read())
     print("_" * 100)
 
-
-#complete
 #EDIT a record in the file
 def Command5_Click():
   
@@ -194,9 +183,6 @@ def Command6_Click():
 
      print("_" * 100)
    
-     
-      
-
 #formate file
 def MyFix():
    f = open("stuFile.txt", "w")
@@ -209,8 +195,6 @@ def MyFix():
 Answer = input("Are you using this program for the first time, if yes then enter Y: ")
 if Answer == "Y":
     MyFix()
-
-
 choice = 0
 while choice != 8:
 #Serial Sequential Filing Complete code
@@ -240,4 +224,4 @@ while choice != 8:
            Command6_Click()
        elif choice == 7:
            MyFix()
-
+            
