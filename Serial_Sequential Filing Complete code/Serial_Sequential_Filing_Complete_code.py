@@ -224,4 +224,6 @@ while choice != 8:
            Command6_Click()
        elif choice == 7:
            MyFix()
+       elif choice == 8:
+           break
             
